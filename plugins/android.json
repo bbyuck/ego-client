@@ -1,0 +1,19 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.helloworld"
+    },
+    "cordova-plugin-kakao-sdk": {
+      "KAKAO_APP_KEY": "875dfc68716745a11a30b413f2201821",
+      "PACKAGE_NAME": "io.cordova.helloworld"
+    }
+  },
+  "dependent_plugins": {}
+}

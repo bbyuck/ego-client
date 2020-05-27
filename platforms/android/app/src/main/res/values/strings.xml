@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ego-client</string>
+    <string name="launcher_name">@string/app_name</string>
+    <string name="activity_name">@string/launcher_name</string>
+    <string name="kakao_app_key">875dfc68716745a11a30b413f2201821</string>
+    <string name="kakao_scheme">kakao875dfc68716745a11a30b413f2201821</string>
+    <string name="kakaolink_host">kakaolink</string>
+</resources>

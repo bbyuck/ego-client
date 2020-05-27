@@ -1,0 +1,74 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"KakaoCordovaSDK\"><param name=\"ios-package\" value=\"KakaoCordovaSDK\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "KAKAO_APP_KEY": [
+            {
+              "xml": "<string>875dfc68716745a11a30b413f2201821</string>",
+              "count": 1
+            }
+          ],
+          "CFBundleURLTypes": [
+            {
+              "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>kakao875dfc68716745a11a30b413f2201821</string></array></dict></array>",
+              "count": 1
+            }
+          ],
+          "LSApplicationQueriesSchemes": [
+            {
+              "xml": "<array><string>kakao875dfc68716745a11a30b413f2201821</string><string>kakaokompassauth</string><string>storykompassauth</string><string>kakaolink</string><string>storylink</string><string>kakaotalk-5.9.7</string><string>kakaostory-2.9.0</string></array>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    },
+    "cordova-plugin-kakao-sdk": {
+      "KAKAO_APP_KEY": "875dfc68716745a11a30b413f2201821",
+      "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-kakao-sdk.AuthConstant",
+      "file": "plugins/cordova-plugin-kakao-sdk/www/AuthConstant.js",
+      "pluginId": "cordova-plugin-kakao-sdk",
+      "clobbers": [
+        "AuthConstant"
+      ]
+    },
+    {
+      "id": "cordova-plugin-kakao-sdk.KakaoCordovaSDK",
+      "file": "plugins/cordova-plugin-kakao-sdk/www/KakaoCordovaSDK.js",
+      "pluginId": "cordova-plugin-kakao-sdk",
+      "clobbers": [
+        "KakaoCordovaSDK"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-kakao-sdk": "3.0.6"
+  }
+}

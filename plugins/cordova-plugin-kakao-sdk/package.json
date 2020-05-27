@@ -1,0 +1,62 @@
+{
+  "_from": "cordova-plugin-kakao-sdk",
+  "_id": "cordova-plugin-kakao-sdk@3.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-JT335Y4k2rGMUmqHhr07FBcdfm0Xqf+1ryWo62znhKvlJB8F8+TX3idR1qas1e5V+C6unEtDaTTuyXPJgNgXFg==",
+  "_location": "/cordova-plugin-kakao-sdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-kakao-sdk",
+    "name": "cordova-plugin-kakao-sdk",
+    "escapedName": "cordova-plugin-kakao-sdk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-kakao-sdk/-/cordova-plugin-kakao-sdk-3.0.6.tgz",
+  "_shasum": "063d4bbfa6b1f115eee2121f04497a2bda99c308",
+  "_spec": "cordova-plugin-kakao-sdk",
+  "_where": "/Users/kanghyuk/Desktop/HANTA/ego-client",
+  "author": {
+    "name": "raccoondev85"
+  },
+  "bugs": {
+    "url": "https://github.com/raccoondev85/cordova-plugin-kakao-sdk/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-kakao-sdk",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Kakao Cordova SDK Plugin",
+  "homepage": "https://github.com/raccoondev85/cordova-plugin-kakao-sdk#readme",
+  "id": "cordova-plugin-kakao-sdk",
+  "keywords": [
+    "cordova",
+    "kakao",
+    "kakaotalk",
+    "login",
+    "kakao-sdk",
+    "kakaoaccount",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-kakao-sdk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raccoondev85/cordova-plugin-kakao-sdk.git"
+  },
+  "version": "3.0.6"
+}
