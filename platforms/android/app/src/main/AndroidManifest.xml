@@ -18,4 +18,5 @@
         <meta-data android:name="com.kakao.sdk.AppKey" android:value="@string/kakao_app_key" />
     </application>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 </manifest>

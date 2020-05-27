@@ -13,6 +13,21 @@
     "cordova-plugin-kakao-sdk": {
       "KAKAO_APP_KEY": "875dfc68716745a11a30b413f2201821",
       "PACKAGE_NAME": "io.cordova.helloworld"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "io.cordova.helloworld"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "io.cordova.helloworld"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "io.cordova.helloworld"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "io.cordova.helloworld"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "io.cordova.helloworld"
     }
   },
   "dependent_plugins": {}

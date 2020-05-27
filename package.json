@@ -15,7 +15,12 @@
     "axios": "^0.19.2",
     "cordova-android": "^8.1.0",
     "cordova-ios": "^5.1.1",
+    "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-inappbrowser": "^3.2.0",
     "cordova-plugin-kakao-sdk": "^3.0.6",
+    "cordova-plugin-splashscreen": "^5.0.3",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "cordova-plugin-vibration": "^3.1.1",
     "kakao-sdk": "^3.1.0",
     "onsenui": "^2.9.1",
     "vue": "^2.5.0",
@@ -85,7 +90,12 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-kakao-sdk": {
         "KAKAO_APP_KEY": "875dfc68716745a11a30b413f2201821"
-      }
+      },
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-dialogs": {}
     },
     "platforms": [
       "ios",
